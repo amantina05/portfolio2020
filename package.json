@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2020",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amantina05/portfolio2020.git"
+  },
+  "author": "Amantina Sosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amantina05/portfolio2020/issues"
+  },
+  "homepage": "https://github.com/amantina05/portfolio2020#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
