@@ -27,3 +27,9 @@ $background-opacity: 0.8;
     }
   }
 }
+
+//Media Query Mixins
+@mixin mediaSm {
+  @media screen and (max-width: 500ox) {
+  }
+}
