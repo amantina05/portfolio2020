@@ -1,7 +1,7 @@
 {
   "name": "portfolio2020",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "Responsive Portfolio",
   "main": "index.js",
   "homepage": "https://amantina05.github.io/portfolio2020/dist",
   "scripts": {
