@@ -56,6 +56,9 @@
       width: 250px;
       height: 250px;
       background: url("../../img/portrait.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: fixed;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -166,7 +169,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -211,6 +214,28 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white; }
+
+.js {
+  width: 90%;
+  background-color: #808080; }
+
+.html {
+  width: 80%;
+  background-color: #808080; }
+
+.css {
+  width: 75%;
+  background-color: #808080; }
+
+.cybersecurity {
+  width: 40%;
+  background-color: #808080; }
 
 .btn, .btn-dark, .btn-light {
   display: inline-block;
