@@ -1,4 +1,7 @@
-$primary-color: #444;
+// $primary-color: #444;
+$primary-color: purple;
+// $primary-color: #ff00ff;
+
 $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(../../img/background.jpg);
@@ -50,5 +53,14 @@ $background-opacity: 0.8;
 @mixin mediaXL {
   @media screen and (min-width: 1171px) {
     @content;
+  }
+}
+
+//Set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
