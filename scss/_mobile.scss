@@ -19,7 +19,7 @@
 
     .lg-heading {
       line-height: 1;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
   }
 
@@ -64,27 +64,46 @@
 
   .projects {
     grid-template-columns: repeat(2, 1fr);
+    // align-items: center;
+    // text-align: center;
   }
 }
 
 //Smartphones
+// @include mediaSm {
+// main {
+//   padding: 2rem;
+//   #home h1 {
+//     margin-top: 10vh;
+//   }
+
+//   .lg-heading {
+//     margin-top: 1rem;
+//     font-size: 5rem;
+//   }
+// }
+
+// main#home h1 {
+//   margin-top: 10bh;
+// }
+
+// .projects {
+//   grid-template-columns: 1fr;
+// }
+// }
+
 @include mediaSm {
-  // main {
-  //   padding: 2rem;
-  //   #home h1 {
-  //     margin-top: 10vh;
-  //   }
-
-  //   .lg-heading {
-  //     margin-top: 1rem;
-  //     font-size: 5rem;
-  //   }
-  // }
-
-  main#home h1 {
-    margin-top: 10bh;
+  main {
+    padding: 1rem;
+    #home h1 {
+      margin-top: 4vh;
+      font-size: 3rem;
+    }
+    .lg-heading {
+      margin-top: 1rem;
+      font-size: 3rem;
+    }
   }
-
   .projects {
     grid-template-columns: 1fr;
   }

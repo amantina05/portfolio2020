@@ -191,7 +191,7 @@ main {
   width: 100%; }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 2px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #f79ac0;
@@ -297,7 +297,7 @@ main {
     .menu-branding .portrait {
       background: url("../../img/portrait_small.jpg");
       width: 150px;
-      height: 150px; }
+      height: 250px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
@@ -305,7 +305,13 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10bh; }
+  main {
+    padding: 1rem; }
+    main #home h1 {
+      margin-top: 4vh;
+      font-size: 3rem; }
+    main .lg-heading {
+      margin-top: 1rem;
+      font-size: 3rem; }
   .projects {
     grid-template-columns: 1fr; } }
